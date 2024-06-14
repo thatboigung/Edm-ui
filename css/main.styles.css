@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background: rgb(16, 16, 54);
+    position: absolute;
+    bottom: 0;
+    padding: 50px;
+    width: 100%;
+    color: white;
+
+}
+
+footer h2 {
+    font-size: 20px;
+    color: white;
+}
+
+footer li {
+    padding-top: 20px;
+    list-style: none;
+    color: gray;
+}
+
+footer div {
+    padding: 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer .footer-items {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.new input {
+    color: gray;
+    padding: 10px;
+    outline: none;
+}
+
+.new p {
+    color: gray;
+    padding: 10px 0;
+}
+
+.new .form {
+    display: flex;
+    margin-left: -10px;
+}
+
+.new button {
+    padding: 0 20px;
+    color: white;
+    background-color: green;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.copy {
+    display: flex;
+    gap: 20px;
+}
+
+.copy .icon {
+    position: relative;
+    left: 50%;
+    top: -10px;
+}
+
+.copy .fa {
+    padding: 10px;
+    background-color: rgba(3, 16, 51, 0.801);
+}
